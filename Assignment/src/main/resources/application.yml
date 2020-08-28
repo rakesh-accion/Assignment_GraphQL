@@ -1,0 +1,13 @@
+    
+ graphql:
+  servlet:
+    mapping: /graphql
+    enabled: true
+    corsEnabled: true
+    
+ logging:
+  level:
+    org:
+      hibernate:
+        type: trace
+        
